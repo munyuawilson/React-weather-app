@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
+import Display from './components/Display';
 import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 function Hello(name){
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
-    
+    <Display />
   </React.StrictMode>
 );
 
